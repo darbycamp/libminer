@@ -4,6 +4,8 @@
 # libminer
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/darbycamp/libminer/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/darbycamp/libminer/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of libminer is to provide an overview of your R library setup.
@@ -31,7 +33,7 @@ lib_summary()
 #>                                                                 library
 #> 1                                    C:/Program Files/R/R-4.3.1/library
 #> 2                        C:/Users/Darby/AppData/Local/R/win-library/4.3
-#> 3 C:/Users/Darby/AppData/Local/Temp/Rtmp8EfBL3/temp_libpath2f2c7b383921
+#> 3 C:/Users/Darby/AppData/Local/Temp/Rtmp8EfBL3/temp_libpath2f2c7b6a5c2a
 #>   n_packages
 #> 1         30
 #> 2         97
@@ -42,9 +44,9 @@ lib_summary(sizes = TRUE)
 #>                                                                 library
 #> 1                                    C:/Program Files/R/R-4.3.1/library
 #> 2                        C:/Users/Darby/AppData/Local/R/win-library/4.3
-#> 3 C:/Users/Darby/AppData/Local/Temp/Rtmp8EfBL3/temp_libpath2f2c7b383921
+#> 3 C:/Users/Darby/AppData/Local/Temp/Rtmp8EfBL3/temp_libpath2f2c7b6a5c2a
 #>   n_packages  lib_size
 #> 1         30  68858812
 #> 2         97 163364538
-#> 3          1     13314
+#> 3          1     13315
 ```
